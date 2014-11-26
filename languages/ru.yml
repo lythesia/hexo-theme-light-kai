@@ -6,6 +6,8 @@ about: Обо мне
 tweets: Твиты
 prev: Назад
 next: Вперед
+notitle: безымянный
+nomore: без
 comment: Комментарии
 archive_a: Архив
 archive_b: "Архив: %s"

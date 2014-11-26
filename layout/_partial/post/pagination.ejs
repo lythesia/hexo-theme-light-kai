@@ -1,0 +1,46 @@
+<% if (page.prev || page.next) { %>
+<nav class="article-nav clearfix">
+  <% if (page.prev) { %>
+  <div class="article-prev">
+    <a href="<%- config.root %><%- page.prev.path %>" title="<%= page.prev.title %>">
+      <i class="fa fa-long-arrow-left"></i>
+      <span>
+        <% if (page.prev.title) { %>
+        <%= page.prev.title %>
+        <% } else { %>
+        <%= __('notitle') %>
+        <% } %>
+      </span>
+    </a>
+  </div>
+  <% } else { %>
+  <div class="article-prev">
+    <i class="fa fa-long-arrow-left"></i>
+    <span>
+      <%= __('nomore') %>
+    </span>
+  </div>
+  <% } %>
+  <% if (page.next) { %>
+  <div class="article-next">
+    <a href="<%- config.root %><%- page.next.path %>" title="<%= page.next.title %>">
+      <span>
+        <% if (page.next.title) { %>
+        <%= page.next.title %>
+        <% } else { %>
+        (no title)
+        <% } %>
+      </span>
+      <i class="fa fa-long-arrow-right"></i>
+    </a>
+  </div>
+  <% } else { %>
+  <div class="article-next">
+    <span>
+      <%= __('nomore') %>
+    </span>
+    <i class="fa fa-long-arrow-right"></i>
+  </div>
+  <% } %>
+</nav>
+<% } %>

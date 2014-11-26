@@ -6,6 +6,8 @@ about: プロフィール
 tweets: ツイート
 prev: 前のページ
 next: 次のページ
+notitle: (タイトルなし)
+nomore: 無し
 comment: コメント
 archive_a: アーカイブ
 archive_b: "アーカイブ：%s"

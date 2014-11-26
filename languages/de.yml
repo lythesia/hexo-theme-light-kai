@@ -6,6 +6,8 @@ about: Über
 tweets: Tweets
 prev: Vorherige Seite
 next: Nächste Seite
+notitle: (namenlos)
+nomore: nil
 comment: Kommentare
 archive_a: Archiv
 archive_b: "Archiv: %s"
