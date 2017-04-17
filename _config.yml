@@ -26,6 +26,7 @@ addthis:
   pinterest: true
 
 fancybox: true
+scrollup: true
 
 google_analytics:
 rss:
